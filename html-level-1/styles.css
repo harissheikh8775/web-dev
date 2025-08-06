@@ -1,30 +1,20 @@
-.card {
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-img {
-    width: 100%;
-    border-radius: 25px;
+.main_box{
+    background-image: url("photo.jpg");
+    background-size: cover;
+    height: 100vh;
 }
-
-h2 {
-    color: #d56f3e;
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
 }
-
-span {
-    color: #9d6f24;
-}
-
-h4 {
-    text-align: right;
-    color: #3c787e;
-}
-
-#pets {
-    display: flex;
-    justify-content: space-evenly;
+.sidebar_menu{
+    
 }
